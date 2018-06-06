@@ -1,0 +1,11 @@
+---
+version: '3'
+services:
+  minio:
+    image: jbosstm/lra-coordinator
+    container_name: lra-coordinator
+    network_mode: host
+    # ports:
+    #  - 8080:8080
+    environment:
+      - JAVA_OPTIONS=-Djava.net.preferIPv4Stack=true 

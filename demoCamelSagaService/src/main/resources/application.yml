@@ -1,0 +1,9 @@
+camel:
+  service:
+    lra:
+      enabled: true
+      coordinator-url: http://localhost:8080
+      local-participant-url: http://localhost:8888/
+
+service1_host: localhost:8081
+service2_host: localhost:8082
